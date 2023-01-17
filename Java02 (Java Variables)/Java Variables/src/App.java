@@ -44,5 +44,133 @@ public class App {
 
         System.out.println(num4);
 
+
+
+        // Arithmetic Operations
+
+        // + 
+        int number1 = 20;
+        int number2 = 40;
+
+        int total = number1 + number2;
+
+        System.out.println("Total is : " + total);
+
+        // -
+        int subtractedValue = number2 - number1;
+        System.out.println("Output after subtraction is : " + subtractedValue);
+
+        // /
+        int dividedValue = number2 / number1;
+        System.out.println("Output after division is : " + dividedValue);
+
+        // /
+        int multipliedValue = number2 * number1;
+        System.out.println("Output after Multiplication is : " + multipliedValue);
+
+         // %
+         int remainder = number2 % number1;
+         System.out.println("Output after remainder is : " + remainder);
+ 
+         // ++
+        number1++;
+        System.out.println("Output after increment is : " + number1);
+ 
+        // --
+        number2--;
+        System.out.println("Output after decrement is : " + number2);
+
+
+
+
+        
+        // Asignment Operations
+        int a = 4;
+
+        // a+= 10; // a = a + 10;
+
+        System.out.println(a);
+
+
+        // a-= 4; // a = a - 10;
+        // a/= 4; // a = a / 10;
+        // a*= 4; // a = a  * 10;
+        // a %= 3;  // a = a % 3;
+
+
+        // Logical Operators
+
+        // int danielAge = 25;
+
+        // if (danielAge < 18 && danielAge < 60 ) {
+        //     System.out.println("You are not eligible for Retirment Funds!");
+        // }
+
+        int n1 = 2;
+        int n2 = 20;
+
+        if (n1 > 5 && n2 > 15) {
+            System.out.println("Both Conditions satisfy!");
+        } else {
+            System.out.println("Something Wrong!");
+        }
+
+        // && Operator
+        // true && true --> true
+        // true && false -->  false
+        // false && true --> false
+        // false && false --> false
+
+
+        // || Operator
+        
+        
+        int danielAge = 100;
+
+        if (danielAge < 18 || danielAge < 60 ) {
+            System.out.println("I went in if condition");
+        } else {
+            System.out.println("I went in the else condition");
+        }
+
+        // true || true --> true
+        // true || false -->  true
+        // false || true --> true
+        // false || false --> false
+
+
+        int a1 = 10;
+        int b1 = 11;
+        int c1 = 12;
+
+        // Multiple && operations
+        if (a1 == 10 && b1 == 11 && c1 == 12) {
+            System.out.println("All the conditions satisfy!");
+        }
+
+
+
+        // Conditional Statements
+
+        int marks = 75;
+
+        // if (marks > 60 && marks <= 70) {
+        //     System.out.println("You got a C grade");
+        // } else if (marks > 70 && marks <= 80) {
+        //     System.out.println("You got a B grade");
+        // } else if (marks > 80) {
+        //     System.out.println("You got a A grade");
+        // } else {
+        //     System.out.println("Oops You failed!");
+        // }
+
+        // Ternary Operators
+        // condition ? Expression 1 (If) : Expression 2 (else)
+    
+        String output = (marks > 60 && marks <= 70) ? "You got a C grade" : (marks > 70 && marks <= 80) ? "You got a B grade" : (marks > 80) ? "You got a A grade" :"Oops You failed!"; 
+
+        System.out.println(output);
+
+
     }
 }
