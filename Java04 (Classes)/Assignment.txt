@@ -1,0 +1,21 @@
+// Create a class called as Circle
+// You have to pass relevant fields like
+    // radius
+    // diameter
+
+// Methods
+    // getArea
+    // getParameter
+
+// Make an instance of that class in the App.java, and use these Methods
+
+
+// Create a class called as Cylinder
+// You have to pass relevant fields like
+    // height
+    // radius
+
+// Methods
+    // getVolume , You need to know the method to calculate the volume
+
+// Make an instance of that class in the App.java, and use these Methods
